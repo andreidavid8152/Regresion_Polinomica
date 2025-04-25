@@ -1,0 +1,7 @@
+MODELO DE REGRESION POLINOMIAL (GRADO 2)
+
+Para este modelo se ha analizado la relación entre el número de ciclos de carga y la capacidad restante de la batería, utilizando una regresión polinómica de grado 2, que demostró ser el modelo más apropiado en términos de ajuste y generalización.
+
+El coeficiente de determinación (r²) obtenido es de 0.9961, indicando que aproximadamente el 99.6% de la variabilidad observada en la capacidad de la batería puede explicarse a partir del número de ciclos de carga. Además, el error absoluto medio (MAE) registrado fue de 0.98%, representando una desviación promedio del 1.65% respecto a los valores reales.
+
+Se eligió el modelo de grado 2 porque, aunque modelos de grados superiores como 3, 4 o 5 ofrecían incrementos marginales en r², el riesgo de sobreajuste aumentaba considerablemente. Dado que con grado 2 ya se logra un ajuste sobresaliente (r² > 0.996) y un error bajo, no es necesario incrementar la complejidad. De hecho, el análisis mostró que utilizar grados mayores comienza a modelar ruido en lugar de la tendencia real de los datos, lo que confirma la presencia de sobreajuste.
